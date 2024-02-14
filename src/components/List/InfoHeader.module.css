@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.newTask{
+    display: flex;
+    align-content: center;
+    gap: .5rem;
+}
+
+.newTask p {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.container aside span {
+    padding: 2px 8px;
+    border-radius: 16px;
+  
+    font-size: 0.75rem;
+  
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+  }
+
+.doneTask{
+    display: flex;
+    align-content: center;
+    gap: .5rem;
+}
+
+.doneTask p {
+    color: var(--purple);
+    font-weight: 700;
+}
+
+

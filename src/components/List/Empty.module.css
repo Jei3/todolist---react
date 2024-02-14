@@ -1,0 +1,31 @@
+.empty {
+    margin-top: 24px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 2px solid var(--gray-400);
+    border-radius: 4px;
+
+    > svg {
+        color: var(--gray-400);
+        
+        margin: 64px auto 26px;
+    }
+
+    p {
+        
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        color: var(--gray-300);
+        font-size: 1rem;
+    }
+}

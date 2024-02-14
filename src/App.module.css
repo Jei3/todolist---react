@@ -1,0 +1,16 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  margin-top: -1.75rem;
+  padding: 0 1rem;
+
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+
+.newTaskContainer{
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
+}
